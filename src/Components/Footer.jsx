@@ -1,11 +1,12 @@
-import React from 'react'
+import React from 'react';
+import './Footer.css'; 
 
 const Footer = () => {
   return (
-    <div>
-      
-    </div>
-  )
-}
+    <footer className="footer">
+      <p>Copyright © 2024 | Brand Page</p>
+    </footer>
+  );
+};
 
-export default Footer
+export default Footer;
