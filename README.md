@@ -1,8 +1,26 @@
-# React + Vite
+# Brand Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the **Nike Landing Page** project! This repository contains the code for a responsive landing page designed using **React** and **Vite**.
 
-Currently, two official plugins are available:
+## Technologies Used
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **React**
+- **Vite**
+- **CSS** (or any other styling framework you used, e.g., Tailwind CSS, Bootstrap)
+
+## Installation
+
+To run this project locally, follow these steps:
+
+### Prerequisites
+
+- [Node.js](https://nodejs.org/) (version 14 or later recommended)
+- [npm](https://www.npmjs.com/) (comes with Node.js)
+
+### Clone the Repository
+
+Open your terminal and run:
+
+```bash
+git clone https://github.com/kashyapsanskar/Brand-page.git
+
