@@ -1,5 +1,8 @@
 import React from 'react';
 import './ProductSection.css'; // Create a CSS file if needed
+import AmazonIcon from '../assets/Amazon_icon.png';
+import Flipkart from '../assets/Flipkart.png'
+import Nike from '../assets/Nike.png'
 
 const ProductSection = () => {
   return (
@@ -14,11 +17,16 @@ const ProductSection = () => {
         <p className="available-on">Also Available On</p>
         <div className="platform-icons">
           {/* Add logos/icons */}
-          <img src="amazon-logo.png" alt="Amazon" />
+
+          
+          <img src={AmazonIcon} alt="Amazon" />
+          <img src={Flipkart} alt="Flipkart" />
+
+
         </div>
       </div>
       <div className="image-content">
-        <img src="shoe-image.png" alt="Nike Shoe" />
+        <img src={Nike} alt="Nike Shoe" />
       </div>
     </section>
   );

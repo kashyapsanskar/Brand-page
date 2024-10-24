@@ -1,0 +1,57 @@
+.product-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4rem;
+    background-color: #fff;
+  }
+  
+  .text-content {
+    flex: 1;
+    padding-right: 2rem;
+  }
+  
+  .text-content h1 {
+    font-size: 3rem;
+    color: #333;
+  }
+  
+  .text-content p {
+    margin: 1rem 0;
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  .buttons {
+    margin: 1.5rem 0;
+  }
+  
+  .shop-now, .category {
+    padding: 0.75rem 1.5rem;
+    margin-right: 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .shop-now {
+    background-color: red;
+    color: white;
+    border: none;
+  }
+  
+  .category {
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+  }
+  
+  .available-on {
+    font-size: 0.9rem;
+    color: #777;
+  }
+  
+  .image-content img {
+    max-width: 100%;
+    height: auto;
+  }
+  
