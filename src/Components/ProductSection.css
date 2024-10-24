@@ -50,8 +50,32 @@
     color: #777;
   }
   
+  .image-content {
+    flex: 1;
+    text-align: center;
+  }
+  
   .image-content img {
-    max-width: 100%;
+    max-width: 400px; /* Set a fixed size for testing */
     height: auto;
   }
+  .platform-icons {
+    display: flex;
+    justify-content: flex-start; /* Center the logos horizontally */
+    align-items: center;
+    gap: 1rem; /* Add some space between the logos */
+  }
+  .available-on {
+    display: flex;
+    align-items: center;
+    font-size: 0.9rem;
+    color: #777;
+  }
+  
+  .platform-icons img {
+    width: 50px; /* Adjust size as needed */
+    height: auto; /* Maintain the aspect ratio */
+  }
+  
+  
   
