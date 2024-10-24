@@ -40,6 +40,14 @@ The project is built with **React** and managed with **Vite**. All dependencies 
    ```bash
    npm run dev
 Open your browser and navigate to http://localhost:5173 to view the landing page.
+### Key Points to Ensure It Works on a Separate Computer:
+1. **Node.js and npm**: Ensure the target computer has Node.js and npm installed.
+2. **Clone the Repository**: The `git clone` command will create a local copy of your repository.
+3. **Install Dependencies**: The `npm install` command will read the `package.json` file and install all required packages.
+4. **Run the Application**: Using `npm run dev` starts the development server, allowing access to the application through the specified URL.
+
+As long as the above steps are followed, anyone with the prerequisites installed should be able to run your landing page on their own computer. Let me know if you have any more questions or need further assistance!
+
 
 
    
