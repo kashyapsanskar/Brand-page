@@ -1,5 +1,5 @@
 import React from 'react';
-import './ProductSection.css'; // Create a CSS file if needed
+import './ProductSection.css'; 
 import AmazonIcon from '../assets/Amazon_icon.png';
 import Flipkart from '../assets/Flipkart.png'
 import Nike from '../assets/Nike.png'
